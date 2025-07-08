@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: #fff;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #c4bfbf solid 1px;
+}
+
+.myntra_home {
+  height: 36px;
+  width: 56px;
+}
+
+.logo_container {
+  margin-left: 4%;
+}
+
+.action_bar {
+  margin-right: 4%;
+}
+
+sup {
+  color: #ff3f6c;
+  font-size: 8px;
+}
+
+.nav_bar {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-between;
+}
+
+.nav_bar a {
+  padding: 30px 0 32px 0;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  border-bottom: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav_bar a:hover {
+  border-bottom: 2px solid #ff3f6c;
+  color: #ff3f6c;
+
+}
+
+.nav_bar a:hover sup {
+  color: black;
+}
+
+.search-bar {
+  width: 30%;
+  min-width: 300px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  font-size: 14px;
+  height: 20px;
+  line-height: 24px;
+  color: #696e79;
+  box-sizing: content-box;
+  padding: 8px 10px 10px;
+  margin: 0;
+  outline: 0;
+  border: 1px solid #f5f5f6;
+  border-radius: 0 4px 4px 0;
+  border-left: 0;
+  background: #f5f5f6;
+}
+
+.search-input {
+  width: 100%;
+  border-radius: 4px 0 0 4px;
+  height: 40px;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 10px;
+  color: #696e79;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  width: 21px;
+  height: 21px;
+}
+
+.action_bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.action_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/*MAIN*/
+.banner_container {
+  margin: 40px 0;
+}
+
+.banner_image {
+  width: 100%;
+
+}
+
+.category_heading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: .15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+
+.category_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.sale_item {
+  width: 250px;
+
+}
+
+/* FOOTER */
+.footer {
+  background-color: #fafbfc;
+  padding: 40px 80px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #696b79;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1 1 220px;
+  margin: 20px 0;
+}
+
+.footer-section h4 {
+  color: #282c3f;
+  font-size: 14px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.footer-section ul li:hover {
+  color: #ff3f6c;
+}
+
+/* App Icons */
+.app-icons i {
+  font-size: 32px;
+  margin-right: 15px;
+  color: #282c3f;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.app-icons i:hover {
+  color: #ff3f6c;
+}
+
+/* Social Icons */
+.social-icons i {
+  font-size: 20px;
+  margin-right: 15px;
+  margin-top: 10px;
+  color: #696b79;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.social-icons i:hover {
+  color: #ff3f6c;
+}
+
+/* Footer Promise Section */
+.footer-promise {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-promise div {
+  display: flex;
+  align-items: center;
+}
+
+.footer-icon {
+  font-size: 30px;
+  color: #ff3f6c;
+  margin-right: 12px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eaeaec;
+  color: #94969f;
+}
